@@ -19,8 +19,7 @@
       width: 210mm;
       margin: 0 auto;
       padding: 2cm;
-      border: 1px solid #444;          
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+       
     }
 
     h1 {
@@ -57,7 +56,14 @@
       color: #2c3e50;
       text-decoration: none;
     }
-
+   @media (max-width: 768px) {
+  .page {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    box-shadow: none;
+    min-height: auto;
+  }
     .section-title {
       font-weight: bold;
       text-transform: uppercase;
